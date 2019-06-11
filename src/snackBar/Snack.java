@@ -58,19 +58,19 @@ public class Snack
     }
     public void addQuantity(int amt)
     {
-        private int total = amt + getQuantity()
+        int total = amt + getQuantity();
         this.quantity = total;
     }
 
     public void buySnack(int amt)
     {
-        private int total = getQuantity()-amt;
+        int total = getQuantity()-amt;
         this.quantity = total;
     }
     
     public double getTotalCost(int quant)
     {
-        private double total = quant * getCost()
+        double total = quant * getCost();
         return total;
     }
 

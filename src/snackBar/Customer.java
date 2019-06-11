@@ -22,7 +22,8 @@ public class Customer
 
     public void addCash(double cash)
     {
-        private double total = getCoh() + cash;
+        double total;
+        total = getCoh() + cash;
         this.coh = total;
     }
 
@@ -35,9 +36,11 @@ public class Customer
     {
         this.name =name;
     }
+
     public void buy(double cost)
     {
-        private double result = getCoh() - cost;
+        double result;
+        result = getCoh() - cost;
         if(result >= 0)
         {
             this.coh = result;

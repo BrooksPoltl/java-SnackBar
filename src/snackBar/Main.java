@@ -24,36 +24,50 @@ public class Main
 
         System.out.println("*** Query Data\n");
 // Customer 1 buys 3 of snack 4. Print Customer 1 Cash on hand. Print quantity of snack 4.
-        jane.buy(3*soda.getCost())
-        soda.buySnack(3)
-        System.println(jane.getCoh())
-        System.println(soda.getQuantity())
+        jane.buy(3*soda.getCost());
+        soda.buySnack(3);
+        System.out.println(jane.getCoh());
+        System.out.println(soda.getQuantity());
 // Customer 1 buys 1 of snack 3. Print Customer 1 Cash on hand. Print quantity of snack 3.
-        jane.buy(pretzel.getCost())
-        pretzel.buySnack(1)
-        System.println(jane.getCoh())
-        System.println(pretzel.getQuantity())
+        jane.buy(pretzel.getCost());
+        pretzel.buySnack(1);
+        System.out.println(jane.getCoh());
+        System.out.println(pretzel.getQuantity());
 // Customer 2 buys 2 of snack 4. Print Customer 2 Cash on Hand. Print quantity of snack 4.
-        bob.buy(2* soda.getCost())
-        soda.buySnack(2)
-        System.println(bob.getCoh())
-        System.println(soda.getQuantity())
+        bob.buy(2* soda.getCost());
+        soda.buySnack(2);
+        System.out.println(bob.getCoh());
+        System.out.println(soda.getQuantity());
 // Customer 1 finds $10. Print Customer 1 Cash on Hand.
-        jane.addCash(10)
-        System.println(jane.getCoh())
+        jane.addCash(10);
+        System.out.println(jane.getCoh());
 // Customer 1 buys 1 of snack 2. Print Customer 1 Cash on Hand. Print quantity of snack 2.
-        jane.buy(chocolateBar.getCost())
-        chocolateBar.buySnack(1)
-        System.println(jane.getCoh())
-        System.println(chocolateBar.getQuantity())
+        jane.buy(chocolateBar.getCost());
+        chocolateBar.buySnack(1);
+        System.out.println(jane.getCoh());
+        System.out.println(chocolateBar.getQuantity());
 // Add 12 more items to snack 3. Print quantity of snack 3.
-        pretzel.addQuantity(12)
-        System.println(pretzel.getQuantity())
+        pretzel.addQuantity(12);
+        System.out.println(pretzel.getQuantity());
 // Customer 2 buys 3 of snack 3. Print Customer 2 Cash on hand. Print quantity of snack 3.
-        bob.buy(3* pretzel.getCost())
-        pretzel.buySnack(3)
-        System.println(bob.getCoh())
-        System.println(pretzel.getQuantity())
+        bob.buy(3* pretzel.getCost());
+        pretzel.buySnack(3);
+        System.out.println(bob.getCoh());
+        System.out.println(pretzel.getQuantity());
+
+        //response 
+        // 37.75
+        // 21
+        // 35.75
+        // 29
+        // 28.14
+        // 19
+        // 45.75
+        // 44.75
+        // 35
+        // 41
+        // 22.14
+        // 38
 
     }
     public static void main(String[] args)
